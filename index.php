@@ -379,7 +379,7 @@ foreach($hof as $year => $entries) {
 	<div id="container">
 		<div id="logo"></div>
 		<div id="ribbon"></div>
-		<p id="intro">Welcome to the Mod Hall of Fame, a celebration of the best video game modifications ever made over the past <?= gmdate('Y')-1996 ?> years. Every mod on this list has earned its spot be it via commercial or critical acclaim and has influenced gaming in some way. Over 50,000 mods have been released according to Mod DB so whilst we cannot list them all, we attempted to pick the standout mods spanning various genres and games. Each year we shall add new and old mods to this list (ordered by first release date) with a number of mods in consideration in <?= gmdate('Y')+1 ?>. Enjoy the best of the best:</p>
+		<p id="intro">Welcome to the Mod Hall of Fame, a celebration of the best video game modifications ever made over the past <?= gmdate('Y')-1996 ?> years. Every mod on this list has earned its spot be it via commercial or critical acclaim and has influenced gaming in some way. Millions of mods have been released since the earliest days of video gaming, so whilst we cannot list them all, we attempted to pick the standout mods spanning various genres and games. Each year we shall consider new and old mods for inclusion on this list, enjoy the best of the best!</p>
 
 		<?php $js=''; foreach($hof as $year => $entries) { $first=TRUE; foreach($entries as $entry) { $js .= "$('.video".$entry['img']."').colorbox({html:'".$entry['video']."'});"; ?>
 		<div class="entry">
