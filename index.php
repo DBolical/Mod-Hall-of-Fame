@@ -440,13 +440,13 @@ $(document).ready(function() {
 	});
 });
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VBMFL9G8M0"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-15PT89JQ6Q"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-VBMFL9G8M0');
+  gtag('config', 'G-15PT89JQ6Q');
 </script>
 </body>
 </html>
