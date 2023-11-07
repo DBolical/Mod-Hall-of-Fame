@@ -395,8 +395,8 @@ foreach($hof as $year => $entries) {
 			<div class="blurb">
 				<p><?= $entry['desc'] ?></p>
 			</div>
-			<a href="<?= $entry['url'] ?>" class="btn">Visit Mod DB Profile</a>
-			<a href="<?= $entry['url'].'/downloads' ?>" class="btn">Download On Mod DB</a>
+			<a href="<?= $entry['url'] ?>" class="btn">Visit ModDB Profile</a>
+			<a href="<?= $entry['url'].'/downloads' ?>" class="btn">Download On ModDB</a>
 			<div class="slogan">"<?= $entry['slogan'] ?>"<div style="clear: both;"></div></div>
 		</div>
 		<div class="rule"></div>
