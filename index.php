@@ -363,6 +363,14 @@ foreach($hof as $year => $entries) {
 		height: <?= 463*$count+110 ?>px;
 	}
 	</style>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-15PT89JQ6Q"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-15PT89JQ6Q');
+	</script>
 </head>
 <body id="body">
 
@@ -439,14 +447,6 @@ $(document).ready(function() {
 	 	}
 	});
 });
-</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-15PT89JQ6Q"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-15PT89JQ6Q');
 </script>
 </body>
 </html>
